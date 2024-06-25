@@ -1,0 +1,65 @@
+# This file is a template, and might need editing before it works on your project.
+# This is a sample GitLab CI/CD configuration file that should run without any modifications.
+# It demonstrates a basic 3 stage CI/CD pipeline. Instead of real tests or scripts,
+# it uses echo commands to simulate the pipeline execution.
+#
+# A pipeline is composed of independent jobs that run scripts, grouped into stages.
+# Stages run in sequential order, but jobs within stages run in parallel.
+#
+# For more information, see: https://docs.gitlab.com/ee/ci/yaml/index.html#stages
+#
+# You can copy and paste this template into a new `.gitlab-ci.yml` file.
+# You should not add this template to an existing `.gitlab-ci.yml` file by using the `include:` keyword.
+#
+# To contribute improvements to CI/CD templates, please follow the Development guide at:
+# https://docs.gitlab.com/ee/development/cicd/templates.html
+# This specific template is located at:
+# https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Getting-Started.gitlab-ci.yml
+
+default:
+    image: any
+
+stages:          # List of stages for jobs, and their order of execution
+  - Build
+  - Test
+  - Deploy
+
+variables:
+    DOCKERHUB_CREDENTIALS: credentials('dockerhub')
+
+job "Git Code":
+    stage: Build
+    script: 
+        - WHEN branch = "main"
+        - git branch = "main"
+        - url = "https://gitlab.com/Nour9911/internassignmentbackend.git"
+
+job "Building Project":
+    stage: Test
+    script:
+       - WHEN branch = "main"
+       - sh "mvn clean install"
+
+job "Building Docker Image":
+    stage: Deploy
+    script:
+        - WHEN branch = "main"
+        - sh "docker build -t $DOCKERHUB_CREDENTIALS_USR/shopback ."
+
+job "Login to DockerHub":
+    stage: Deploy
+    script:
+        - WHEN branch = "main"
+        - sh "echo $DOCKERHUB_CREDENTIALS_PSW | docker login -u $DOCKERHUB_CREDENTIALS_USR --password-stdin"
+
+job "Push to DockerHub":
+    stage: Deploy
+    script:
+        - WHEN branch = "main"
+        - sh "docker push $DOCKERHUB_CREDENTIALS_USR/shopback"
+
+job "Docker-compose":
+    stage: Deploy
+    script:
+        - WHEN branch = "main"
+        - sh "docker-compose up -d"

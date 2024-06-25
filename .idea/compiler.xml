@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="EurekaServer" />
+        <module name="Order-Service" />
+        <module name="User" />
+        <module name="piCTA22 (2)" />
+        <module name="produit-service" />
+        <module name="piCTA22 (1)" />
+        <module name="panier-service" />
+        <module name="Stock-Service" />
+        <module name="shopback" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gateway-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EurekaServer" options="-parameters" />
+      <module name="Order-Service" options="-parameters" />
+      <module name="Stock-Service" options="-parameters" />
+      <module name="User" options="-parameters" />
+      <module name="demo" options="" />
+      <module name="gateway-service" options="-parameters" />
+      <module name="panier-service" options="-parameters" />
+      <module name="piCTA22 (1)" options="-parameters" />
+      <module name="piCTA22 (2)" options="-parameters" />
+      <module name="produit-service" options="-parameters" />
+      <module name="shopback" options="-parameters" />
+    </option>
+  </component>
+</project>

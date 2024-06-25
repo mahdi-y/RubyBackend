@@ -1,0 +1,942 @@
+Mapped to com.example.Controller.ProduitRestController#getProduitById(Long) 
+Running the evict task with compensationTime 0ms 
+Mapped to com.example.Controller.ProduitRestController#getProduitById(Long) 
+Running the evict task with compensationTime 0ms 
+Mapped to com.example.Controller.ProduitRestController#viewHomePage(Model, String) 
+Mapped to com.example.Controller.ProduitRestController#getProduitById(Long) 
+Running the evict task with compensationTime 0ms 
+Resolving eureka endpoints via configuration 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Resolving eureka endpoints via configuration 
+Running the evict task with compensationTime 1ms 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Unregistering application PRODUIT-SERVICE with eureka with status DOWN 
+Saw local status change event StatusChangeEvent [timestamp=1718792360631, current=DOWN, previous=UP] 
+DiscoveryClient_PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089: registering service... 
+DiscoveryClient_PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089 - registration status: 204 
+Shutting down Eureka Server.. 
+Shutting down ... 
+Shut down 
+Eureka Service is now shutdown... 
+Shutting down ... 
+Shut down 
+Closing JPA EntityManagerFactory for persistence unit 'default' 
+HikariPool-1 - Shutdown initiated... 
+HikariPool-1 - Shutdown completed. 
+Shutting down DiscoveryClient ... 
+Unregistering ... 
+DiscoveryClient_PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089 - deregister  status: 200 
+Completed shut down of DiscoveryClient 
+Starting PiCta22Application using Java 17.0.9 on DESKTOP-7V4TGT0 with PID 8928 (C:\Users\balho\Desktop\Produit-Service\target\classes started by Yassin in C:\Users\balho\Desktop\Produit-Service) 
+No active profile set, falling back to 1 default profile: "default" 
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+Finished Spring Data repository scanning in 259 ms. Found 1 JPA repository interfaces. 
+BeanFactory id=e7b29b67-e115-3f89-91f2-b3250dcc683f 
+Tomcat initialized with port(s): 8089 (http) 
+Starting service [Tomcat] 
+Starting Servlet engine: [Apache Tomcat/9.0.60] 
+At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+Initializing Spring embedded WebApplicationContext 
+Root WebApplicationContext: initialization completed in 4842 ms 
+HikariPool-1 - Starting... 
+HikariPool-1 - Start completed. 
+H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/Ruby1' 
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+HHH000204: Processing PersistenceUnitInfo [name: default] 
+HHH000412: Hibernate ORM core version 5.6.7.Final 
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+Initialized JPA EntityManagerFactory for persistence unit 'default' 
+Filter 'resourceUrlEncodingFilter' configured for use 
+Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM' 
+Using JSON encoding codec LegacyJacksonJson 
+Using JSON decoding codec LegacyJacksonJson 
+Using XML encoding codec XStreamXml 
+Using XML decoding codec XStreamXml 
+25 mappings in 'requestMappingHandlerMapping' 
+Exposing 1 endpoint(s) beneath base path '/actuator' 
+Patterns [/swagger-ui/] in 'viewControllerHandlerMapping' 
+Patterns [/swagger-ui*/*swagger-initializer.js, /swagger-ui*/**, /swagger-ui/**] in 'resourceHandlerMapping' 
+Will not secure any request 
+LiveReload server is running on port 35729 
+ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice 
+ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice 
+File system access not preferred: using SpringTemplateLoader 
+Eureka HTTP Client uses Jersey 
+Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath. 
+Setting initial instance status as: STARTING 
+Initializing Eureka in region us-east-1 
+Using JSON encoding codec LegacyJacksonJson 
+Using JSON decoding codec LegacyJacksonJson 
+Using XML encoding codec XStreamXml 
+Using XML decoding codec XStreamXml 
+Resolving eureka endpoints via configuration 
+Disable delta property : false 
+Single vip registry refresh property : null 
+Force full registry fetch : false 
+Application is null : false 
+Registered Applications size is zero : true 
+Application version is -1: true 
+Getting all instance registry info from the eureka server 
+The response status is 200 
+Starting heartbeat executor: renew interval is: 30 
+InstanceInfoReplicator onDemand update allowed rate per min is 4 
+Discovery Client initialized at timestamp 1718802513027 with initial instances count: 0 
+Initializing ... 
+Adding new peer nodes [http://localhost:8761/eureka/] 
+Using JSON encoding codec LegacyJacksonJson 
+Using JSON decoding codec LegacyJacksonJson 
+Using XML encoding codec XStreamXml 
+Using XML decoding codec XStreamXml 
+Replica node URL:  http://localhost:8761/eureka/ 
+Finished initializing remote region registries. All known remote regions: [] 
+Initialized 
+Registering application PRODUIT-SERVICE with eureka with status UP 
+Saw local status change event StatusChangeEvent [timestamp=1718802513335, current=UP, previous=STARTING] 
+DiscoveryClient_PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089: registering service... 
+Setting the eureka configuration.. 
+isAws returned false 
+Initialized server context 
+Tomcat started on port(s): 8089 (http) with context path '/SpringMVC' 
+Updating port to 8089 
+DiscoveryClient_PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089 - registration status: 204 
+Started PiCta22Application in 14.916 seconds (JVM running for 17.492) 
+Disable delta property : false 
+Single vip registry refresh property : null 
+Force full registry fetch : false 
+Application is null : false 
+Registered Applications size is zero : true 
+Application version is -1: false 
+Getting all instance registry info from the eureka server 
+The response status is 200 
+Registered instance PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089 with status UP (replication=true) 
+Got 1 instances from neighboring DS node 
+Renew threshold is: 1 
+Changing status to UP 
+Started Eureka Server 
+Initializing Spring DispatcherServlet 'dispatcherServlet' 
+Initializing Servlet 'dispatcherServlet' 
+Detected StandardServletMultipartResolver 
+Detected AcceptHeaderLocaleResolver 
+Detected FixedThemeResolver 
+Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1de52250 
+Detected org.springframework.web.servlet.support.SessionFlashMapManager@4a559441 
+enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data 
+Completed initialization in 3 ms 
+Mapped to com.example.Controller.ProduitRestController#getProduits() 
+Mapped to com.example.Controller.ProduitRestController#getProduits() 
+Mapped to com.example.Controller.ProduitRestController#getProduits() 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Unregistering application PRODUIT-SERVICE with eureka with status DOWN 
+Saw local status change event StatusChangeEvent [timestamp=1718802796836, current=DOWN, previous=UP] 
+DiscoveryClient_PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089: registering service... 
+DiscoveryClient_PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089 - registration status: 204 
+Shutting down Eureka Server.. 
+Shutting down ... 
+Shut down 
+Eureka Service is now shutdown... 
+Shutting down ... 
+Shut down 
+Closing JPA EntityManagerFactory for persistence unit 'default' 
+HikariPool-1 - Shutdown initiated... 
+HikariPool-1 - Shutdown completed. 
+Shutting down DiscoveryClient ... 
+Unregistering ... 
+DiscoveryClient_PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089 - deregister  status: 200 
+Completed shut down of DiscoveryClient 
+Starting PiCta22Application using Java 17.0.9 on DESKTOP-7V4TGT0 with PID 6424 (C:\Users\balho\Desktop\Produit-Service\target\classes started by Yassin in C:\Users\balho\Desktop\Produit-Service) 
+No active profile set, falling back to 1 default profile: "default" 
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+Finished Spring Data repository scanning in 145 ms. Found 1 JPA repository interfaces. 
+BeanFactory id=e7b29b67-e115-3f89-91f2-b3250dcc683f 
+Tomcat initialized with port(s): 8089 (http) 
+Starting service [Tomcat] 
+Starting Servlet engine: [Apache Tomcat/9.0.60] 
+At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+Initializing Spring embedded WebApplicationContext 
+Root WebApplicationContext: initialization completed in 3338 ms 
+HikariPool-1 - Starting... 
+HikariPool-1 - Start completed. 
+H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/Ruby1' 
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+HHH000204: Processing PersistenceUnitInfo [name: default] 
+HHH000412: Hibernate ORM core version 5.6.7.Final 
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+Initialized JPA EntityManagerFactory for persistence unit 'default' 
+Filter 'resourceUrlEncodingFilter' configured for use 
+Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM' 
+Using JSON encoding codec LegacyJacksonJson 
+Using JSON decoding codec LegacyJacksonJson 
+Using XML encoding codec XStreamXml 
+Using XML decoding codec XStreamXml 
+25 mappings in 'requestMappingHandlerMapping' 
+Exposing 1 endpoint(s) beneath base path '/actuator' 
+Patterns [/swagger-ui/] in 'viewControllerHandlerMapping' 
+Patterns [/swagger-ui*/*swagger-initializer.js, /swagger-ui*/**, /swagger-ui/**] in 'resourceHandlerMapping' 
+Will not secure any request 
+LiveReload server is running on port 35729 
+ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice 
+ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice 
+File system access not preferred: using SpringTemplateLoader 
+Eureka HTTP Client uses Jersey 
+Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath. 
+Setting initial instance status as: STARTING 
+Initializing Eureka in region us-east-1 
+Using JSON encoding codec LegacyJacksonJson 
+Using JSON decoding codec LegacyJacksonJson 
+Using XML encoding codec XStreamXml 
+Using XML decoding codec XStreamXml 
+Resolving eureka endpoints via configuration 
+Disable delta property : false 
+Single vip registry refresh property : null 
+Force full registry fetch : false 
+Application is null : false 
+Registered Applications size is zero : true 
+Application version is -1: true 
+Getting all instance registry info from the eureka server 
+The response status is 200 
+Starting heartbeat executor: renew interval is: 30 
+InstanceInfoReplicator onDemand update allowed rate per min is 4 
+Discovery Client initialized at timestamp 1718802812556 with initial instances count: 0 
+Initializing ... 
+Adding new peer nodes [http://localhost:8761/eureka/] 
+Using JSON encoding codec LegacyJacksonJson 
+Using JSON decoding codec LegacyJacksonJson 
+Using XML encoding codec XStreamXml 
+Using XML decoding codec XStreamXml 
+Replica node URL:  http://localhost:8761/eureka/ 
+Finished initializing remote region registries. All known remote regions: [] 
+Initialized 
+Registering application PRODUIT-SERVICE with eureka with status UP 
+Saw local status change event StatusChangeEvent [timestamp=1718802812848, current=UP, previous=STARTING] 
+DiscoveryClient_PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089: registering service... 
+Setting the eureka configuration.. 
+isAws returned false 
+Initialized server context 
+Tomcat started on port(s): 8089 (http) with context path '/SpringMVC' 
+Updating port to 8089 
+DiscoveryClient_PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089 - registration status: 204 
+Started PiCta22Application in 10.869 seconds (JVM running for 12.142) 
+Initializing Spring DispatcherServlet 'dispatcherServlet' 
+Initializing Servlet 'dispatcherServlet' 
+Detected StandardServletMultipartResolver 
+Detected AcceptHeaderLocaleResolver 
+Detected FixedThemeResolver 
+Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1491f6ea 
+Detected org.springframework.web.servlet.support.SessionFlashMapManager@4500713c 
+enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data 
+Completed initialization in 4 ms 
+Disable delta property : false 
+Single vip registry refresh property : null 
+Force full registry fetch : false 
+Application is null : false 
+Registered Applications size is zero : true 
+Application version is -1: false 
+Getting all instance registry info from the eureka server 
+The response status is 200 
+Registered instance PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089 with status UP (replication=true) 
+Got 1 instances from neighboring DS node 
+Renew threshold is: 1 
+Changing status to UP 
+Started Eureka Server 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Resolving eureka endpoints via configuration 
+Mapped to com.example.Controller.ProduitRestController#getProduits() 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Mapped to com.example.Controller.ProduitRestController#getProduits() 
+Running the evict task with compensationTime 0ms 
+Mapped to com.example.Controller.ProduitRestController#getProduits() 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Resolving eureka endpoints via configuration 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Resolving eureka endpoints via configuration 
+Current renewal threshold is : 1 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Resolving eureka endpoints via configuration 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Resolving eureka endpoints via configuration 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 1ms 
+Running the evict task with compensationTime 0ms 
+Running the evict task with compensationTime 0ms 
+Resolving eureka endpoints via configuration 
+Current renewal threshold is : 1 
+Running the evict task with compensationTime 0ms 
+Mapped to com.example.Controller.ProduitRestController#getProduits() 
+Mapped to com.example.Controller.ProduitRestController#getProduits() 
+Mapped to com.example.Controller.ProduitRestController#getProduits() 
+Mapped to com.example.Controller.ProduitRestController#getProduits() 
+Running the evict task with compensationTime 0ms 
+Unregistering application PRODUIT-SERVICE with eureka with status DOWN 
+Saw local status change event StatusChangeEvent [timestamp=1718804709936, current=DOWN, previous=UP] 
+DiscoveryClient_PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089: registering service... 
+DiscoveryClient_PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089 - registration status: 204 
+Shutting down Eureka Server.. 
+Shutting down ... 
+Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again. 
+Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again. 
+Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again. 
+Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again. 
+Shut down 
+Eureka Service is now shutdown... 
+Shutting down ... 
+Shut down 
+Closing JPA EntityManagerFactory for persistence unit 'default' 
+HikariPool-1 - Shutdown initiated... 
+HikariPool-1 - Shutdown completed. 
+Shutting down DiscoveryClient ... 
+Unregistering ... 
+DiscoveryClient_PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089 - deregister  status: 200 
+Completed shut down of DiscoveryClient 
+Starting PiCta22Application using Java 17.0.9 on DESKTOP-7V4TGT0 with PID 3212 (C:\Users\balho\Desktop\Produit-Service\target\classes started by Yassin in C:\Users\balho\Desktop\Produit-Service) 
+No active profile set, falling back to 1 default profile: "default" 
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+Finished Spring Data repository scanning in 155 ms. Found 1 JPA repository interfaces. 
+BeanFactory id=e7b29b67-e115-3f89-91f2-b3250dcc683f 
+Tomcat initialized with port(s): 8089 (http) 
+Starting service [Tomcat] 
+Starting Servlet engine: [Apache Tomcat/9.0.60] 
+At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+Initializing Spring embedded WebApplicationContext 
+Root WebApplicationContext: initialization completed in 3273 ms 
+HikariPool-1 - Starting... 
+HikariPool-1 - Start completed. 
+H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/Ruby1' 
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+HHH000204: Processing PersistenceUnitInfo [name: default] 
+HHH000412: Hibernate ORM core version 5.6.7.Final 
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+Initialized JPA EntityManagerFactory for persistence unit 'default' 
+Filter 'resourceUrlEncodingFilter' configured for use 
+Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM' 
+Using JSON encoding codec LegacyJacksonJson 
+Using JSON decoding codec LegacyJacksonJson 
+Using XML encoding codec XStreamXml 
+Using XML decoding codec XStreamXml 
+25 mappings in 'requestMappingHandlerMapping' 
+Exposing 1 endpoint(s) beneath base path '/actuator' 
+Patterns [/swagger-ui/] in 'viewControllerHandlerMapping' 
+Patterns [/swagger-ui*/*swagger-initializer.js, /swagger-ui*/**, /swagger-ui/**] in 'resourceHandlerMapping' 
+Will not secure any request 
+LiveReload server is running on port 35729 
+ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice 
+ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice 
+File system access not preferred: using SpringTemplateLoader 
+Eureka HTTP Client uses Jersey 
+Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath. 
+Setting initial instance status as: STARTING 
+Initializing Eureka in region us-east-1 
+Using JSON encoding codec LegacyJacksonJson 
+Using JSON decoding codec LegacyJacksonJson 
+Using XML encoding codec XStreamXml 
+Using XML decoding codec XStreamXml 
+Resolving eureka endpoints via configuration 
+Disable delta property : false 
+Single vip registry refresh property : null 
+Force full registry fetch : false 
+Application is null : false 
+Registered Applications size is zero : true 
+Application version is -1: true 
+Getting all instance registry info from the eureka server 
+The response status is 200 
+Starting heartbeat executor: renew interval is: 30 
+InstanceInfoReplicator onDemand update allowed rate per min is 4 
+Discovery Client initialized at timestamp 1718805518337 with initial instances count: 0 
+Initializing ... 
+Adding new peer nodes [http://localhost:8761/eureka/] 
+Using JSON encoding codec LegacyJacksonJson 
+Using JSON decoding codec LegacyJacksonJson 
+Using XML encoding codec XStreamXml 
+Using XML decoding codec XStreamXml 
+Replica node URL:  http://localhost:8761/eureka/ 
+Finished initializing remote region registries. All known remote regions: [] 
+Initialized 
+Registering application PRODUIT-SERVICE with eureka with status UP 
+Saw local status change event StatusChangeEvent [timestamp=1718805518636, current=UP, previous=STARTING] 
+DiscoveryClient_PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089: registering service... 
+Setting the eureka configuration.. 
+isAws returned false 
+Initialized server context 
+Tomcat started on port(s): 8089 (http) with context path '/SpringMVC' 
+Updating port to 8089 
+DiscoveryClient_PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089 - registration status: 204 
+Started PiCta22Application in 10.732 seconds (JVM running for 11.864) 
+Initializing Spring DispatcherServlet 'dispatcherServlet' 
+Initializing Servlet 'dispatcherServlet' 
+Detected StandardServletMultipartResolver 
+Detected AcceptHeaderLocaleResolver 
+Detected FixedThemeResolver 
+Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5424842d 
+Detected org.springframework.web.servlet.support.SessionFlashMapManager@4181cf2 
+enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data 
+Completed initialization in 4 ms 
+Mapped to com.example.Controller.ProduitRestController#getProduits() 
+Mapped to com.example.Controller.ProduitRestController#getProduits() 
+Disable delta property : false 
+Single vip registry refresh property : null 
+Force full registry fetch : false 
+Application is null : false 
+Registered Applications size is zero : true 
+Application version is -1: false 
+Getting all instance registry info from the eureka server 
+The response status is 200 
+Registered instance PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089 with status UP (replication=true) 
+Got 1 instances from neighboring DS node 
+Renew threshold is: 1 
+Changing status to UP 
+Started Eureka Server 
+Running the evict task with compensationTime 0ms 
+Mapped to com.example.Controller.ProduitRestController#getProduits() 
+Mapped to com.example.Controller.ProduitRestController#getProduits() 
+Mapped to com.example.Controller.ProduitRestController#getProduits() 
+Running the evict task with compensationTime 0ms 
+Unregistering application PRODUIT-SERVICE with eureka with status DOWN 
+Saw local status change event StatusChangeEvent [timestamp=1718805670891, current=DOWN, previous=UP] 
+DiscoveryClient_PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089: registering service... 
+DiscoveryClient_PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089 - registration status: 204 
+Shutting down Eureka Server.. 
+Shutting down ... 
+Shut down 
+Eureka Service is now shutdown... 
+Shutting down ... 
+Shut down 
+Closing JPA EntityManagerFactory for persistence unit 'default' 
+HikariPool-1 - Shutdown initiated... 
+HikariPool-1 - Shutdown completed. 
+Shutting down DiscoveryClient ... 
+Unregistering ... 
+DiscoveryClient_PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089 - deregister  status: 200 
+Completed shut down of DiscoveryClient 
+Starting PiCta22Application using Java 17.0.9 on DESKTOP-7V4TGT0 with PID 3212 (C:\Users\balho\Desktop\Produit-Service\target\classes started by Yassin in C:\Users\balho\Desktop\Produit-Service) 
+No active profile set, falling back to 1 default profile: "default" 
+Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces. 
+BeanFactory id=e7b29b67-e115-3f89-91f2-b3250dcc683f 
+Tomcat initialized with port(s): 8089 (http) 
+Starting service [Tomcat] 
+Starting Servlet engine: [Apache Tomcat/9.0.60] 
+At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+Initializing Spring embedded WebApplicationContext 
+Root WebApplicationContext: initialization completed in 1296 ms 
+HikariPool-2 - Starting... 
+HikariPool-2 - Start completed. 
+H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/Ruby1' 
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+HHH000204: Processing PersistenceUnitInfo [name: default] 
+HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+Initialized JPA EntityManagerFactory for persistence unit 'default' 
+Filter 'resourceUrlEncodingFilter' configured for use 
+Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM' 
+Using JSON encoding codec LegacyJacksonJson 
+Using JSON decoding codec LegacyJacksonJson 
+Using XML encoding codec XStreamXml 
+Using XML decoding codec XStreamXml 
+25 mappings in 'requestMappingHandlerMapping' 
+Exposing 1 endpoint(s) beneath base path '/actuator' 
+Patterns [/swagger-ui/] in 'viewControllerHandlerMapping' 
+Patterns [/swagger-ui*/*swagger-initializer.js, /swagger-ui*/**, /swagger-ui/**] in 'resourceHandlerMapping' 
+Will not secure any request 
+LiveReload server is running on port 35729 
+ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice 
+ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice 
+File system access not preferred: using SpringTemplateLoader 
+Eureka HTTP Client uses Jersey 
+Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath. 
+Setting initial instance status as: STARTING 
+Initializing Eureka in region us-east-1 
+Using JSON encoding codec LegacyJacksonJson 
+Using JSON decoding codec LegacyJacksonJson 
+Using XML encoding codec XStreamXml 
+Using XML decoding codec XStreamXml 
+Resolving eureka endpoints via configuration 
+Disable delta property : false 
+Single vip registry refresh property : null 
+Force full registry fetch : false 
+Application is null : false 
+Registered Applications size is zero : true 
+Application version is -1: true 
+Getting all instance registry info from the eureka server 
+The response status is 200 
+Starting heartbeat executor: renew interval is: 30 
+InstanceInfoReplicator onDemand update allowed rate per min is 4 
+Discovery Client initialized at timestamp 1718805678437 with initial instances count: 1 
+Initializing ... 
+Adding new peer nodes [http://localhost:8761/eureka/] 
+Using JSON encoding codec LegacyJacksonJson 
+Using JSON decoding codec LegacyJacksonJson 
+Using XML encoding codec XStreamXml 
+Using XML decoding codec XStreamXml 
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration': Unsatisfied dependency expressed through field 'eurekaServerBootstrap'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eurekaServerBootstrap' defined in class path resource [org/springframework/cloud/netflix/eureka/server/EurekaServerAutoConfiguration.class]: Unsatisfied dependency expressed through method 'eurekaServerBootstrap' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaServerContext': Invocation of init method failed; nested exception is java.lang.IllegalStateException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@764abda6[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@3d9e880[Wrapped task = com.netflix.servo.monitor.StatsMonitor$$Lambda$1603/0x0000000800d74ca8@7f21cf58]] rejected from java.util.concurrent.ScheduledThreadPoolExecutor@1e90c814[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 8] 
+Cannot shutdown ReplicaAwareInstanceRegistry 
+java.lang.NullPointerException: Cannot invoke "com.netflix.eureka.cluster.PeerEurekaNodes.shutdown()" because "this.peerEurekaNodes" is null
+	at com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.shutdown(PeerAwareInstanceRegistryImpl.java:176) ~[eureka-core-1.10.17.jar:1.10.17]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:319) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:596) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.6.jar:2.6.6]
+	at com.example.ProduitApplication.main(PiCta22Application.java:26) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.6.jar:2.6.6]
+Custom destroy method 'shutdown' on bean with name 'peerAwareInstanceRegistry' threw an exception: java.lang.NullPointerException: Cannot invoke "com.netflix.eureka.registry.ResponseCache.stop()" because "this.responseCache" is null 
+Closing JPA EntityManagerFactory for persistence unit 'default' 
+HikariPool-2 - Shutdown initiated... 
+HikariPool-2 - Shutdown completed. 
+Shutting down DiscoveryClient ... 
+Unregistering ... 
+DiscoveryClient_PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089 - deregister  status: 404 
+Completed shut down of DiscoveryClient 
+Stopping service [Tomcat] 
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+Application run failed 
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration': Unsatisfied dependency expressed through field 'eurekaServerBootstrap'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eurekaServerBootstrap' defined in class path resource [org/springframework/cloud/netflix/eureka/server/EurekaServerAutoConfiguration.class]: Unsatisfied dependency expressed through method 'eurekaServerBootstrap' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaServerContext': Invocation of init method failed; nested exception is java.lang.IllegalStateException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@764abda6[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@3d9e880[Wrapped task = com.netflix.servo.monitor.StatsMonitor$$Lambda$1603/0x0000000800d74ca8@7f21cf58]] rejected from java.util.concurrent.ScheduledThreadPoolExecutor@1e90c814[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 8]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.6.jar:2.6.6]
+	at com.example.ProduitApplication.main(PiCta22Application.java:26) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.6.jar:2.6.6]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eurekaServerBootstrap' defined in class path resource [org/springframework/cloud/netflix/eureka/server/EurekaServerAutoConfiguration.class]: Unsatisfied dependency expressed through method 'eurekaServerBootstrap' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaServerContext': Invocation of init method failed; nested exception is java.lang.IllegalStateException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@764abda6[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@3d9e880[Wrapped task = com.netflix.servo.monitor.StatsMonitor$$Lambda$1603/0x0000000800d74ca8@7f21cf58]] rejected from java.util.concurrent.ScheduledThreadPoolExecutor@1e90c814[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 8]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.18.jar:5.3.18]
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaServerContext': Invocation of init method failed; nested exception is java.lang.IllegalStateException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@764abda6[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@3d9e880[Wrapped task = com.netflix.servo.monitor.StatsMonitor$$Lambda$1603/0x0000000800d74ca8@7f21cf58]] rejected from java.util.concurrent.ScheduledThreadPoolExecutor@1e90c814[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 8]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:160) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:440) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.18.jar:5.3.18]
+	... 38 common frames omitted
+Caused by: java.lang.IllegalStateException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@764abda6[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@3d9e880[Wrapped task = com.netflix.servo.monitor.StatsMonitor$$Lambda$1603/0x0000000800d74ca8@7f21cf58]] rejected from java.util.concurrent.ScheduledThreadPoolExecutor@1e90c814[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 8]
+	at com.netflix.eureka.cluster.PeerEurekaNodes.start(PeerEurekaNodes.java:106) ~[eureka-core-1.10.17.jar:1.10.17]
+	at com.netflix.eureka.DefaultEurekaServerContext.initialize(DefaultEurekaServerContext.java:67) ~[eureka-core-1.10.17.jar:1.10.17]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157) ~[spring-beans-5.3.18.jar:5.3.18]
+	... 51 common frames omitted
+Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@764abda6[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@3d9e880[Wrapped task = com.netflix.servo.monitor.StatsMonitor$$Lambda$1603/0x0000000800d74ca8@7f21cf58]] rejected from java.util.concurrent.ScheduledThreadPoolExecutor@1e90c814[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 8]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2065) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:833) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.scheduleWithFixedDelay(ScheduledThreadPoolExecutor.java:680) ~[na:na]
+	at com.netflix.servo.monitor.StatsMonitor.startComputingStats(StatsMonitor.java:409) ~[servo-core-0.12.21.jar:0.12.21]
+	at com.netflix.servo.monitor.StatsMonitor.lambda$new$0(StatsMonitor.java:365) ~[servo-core-0.12.21.jar:0.12.21]
+	at com.netflix.servo.monitor.StatsMonitor.startComputingStats(StatsMonitor.java:377) ~[servo-core-0.12.21.jar:0.12.21]
+	at com.netflix.servo.monitor.StatsTimer.<init>(StatsTimer.java:70) ~[servo-core-0.12.21.jar:0.12.21]
+	at com.netflix.servo.monitor.StatsTimer.<init>(StatsTimer.java:47) ~[servo-core-0.12.21.jar:0.12.21]
+	at com.netflix.eureka.util.batcher.AcceptorExecutor.<init>(AcceptorExecutor.java:116) ~[eureka-core-1.10.17.jar:1.10.17]
+	at com.netflix.eureka.util.batcher.TaskDispatchers.createBatchingTaskDispatcher(TaskDispatchers.java:43) ~[eureka-core-1.10.17.jar:1.10.17]
+	at com.netflix.eureka.cluster.PeerEurekaNode.<init>(PeerEurekaNode.java:104) ~[eureka-core-1.10.17.jar:1.10.17]
+	at com.netflix.eureka.cluster.PeerEurekaNode.<init>(PeerEurekaNode.java:87) ~[eureka-core-1.10.17.jar:1.10.17]
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$RefreshablePeerEurekaNodes.createPeerEurekaNode(EurekaServerAutoConfiguration.java:295) ~[spring-cloud-netflix-eureka-server-3.1.1.jar:3.1.1]
+	at com.netflix.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes(PeerEurekaNodes.java:189) ~[eureka-core-1.10.17.jar:1.10.17]
+	at com.netflix.eureka.cluster.PeerEurekaNodes.start(PeerEurekaNodes.java:87) ~[eureka-core-1.10.17.jar:1.10.17]
+	... 59 common frames omitted
+Starting PiCta22Application using Java 17.0.9 on DESKTOP-7V4TGT0 with PID 3212 (C:\Users\balho\Desktop\Produit-Service\target\classes started by Yassin in C:\Users\balho\Desktop\Produit-Service) 
+No active profile set, falling back to 1 default profile: "default" 
+Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces. 
+BeanFactory id=e7b29b67-e115-3f89-91f2-b3250dcc683f 
+Tomcat initialized with port(s): 8089 (http) 
+Starting service [Tomcat] 
+Starting Servlet engine: [Apache Tomcat/9.0.60] 
+At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+Initializing Spring embedded WebApplicationContext 
+Root WebApplicationContext: initialization completed in 960 ms 
+HikariPool-3 - Starting... 
+HikariPool-3 - Start completed. 
+H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/Ruby1' 
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+HHH000204: Processing PersistenceUnitInfo [name: default] 
+HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+Initialized JPA EntityManagerFactory for persistence unit 'default' 
+Filter 'resourceUrlEncodingFilter' configured for use 
+Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM' 
+Using JSON encoding codec LegacyJacksonJson 
+Using JSON decoding codec LegacyJacksonJson 
+Using XML encoding codec XStreamXml 
+Using XML decoding codec XStreamXml 
+25 mappings in 'requestMappingHandlerMapping' 
+Exposing 1 endpoint(s) beneath base path '/actuator' 
+Patterns [/swagger-ui/] in 'viewControllerHandlerMapping' 
+Patterns [/swagger-ui*/*swagger-initializer.js, /swagger-ui*/**, /swagger-ui/**] in 'resourceHandlerMapping' 
+Will not secure any request 
+LiveReload server is running on port 35729 
+ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice 
+ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice 
+File system access not preferred: using SpringTemplateLoader 
+Eureka HTTP Client uses Jersey 
+Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath. 
+Setting initial instance status as: STARTING 
+Initializing Eureka in region us-east-1 
+Using JSON encoding codec LegacyJacksonJson 
+Using JSON decoding codec LegacyJacksonJson 
+Using XML encoding codec XStreamXml 
+Using XML decoding codec XStreamXml 
+Resolving eureka endpoints via configuration 
+Disable delta property : false 
+Single vip registry refresh property : null 
+Force full registry fetch : false 
+Application is null : false 
+Registered Applications size is zero : true 
+Application version is -1: true 
+Getting all instance registry info from the eureka server 
+The response status is 200 
+Starting heartbeat executor: renew interval is: 30 
+InstanceInfoReplicator onDemand update allowed rate per min is 4 
+Discovery Client initialized at timestamp 1718805686148 with initial instances count: 0 
+Initializing ... 
+Adding new peer nodes [http://localhost:8761/eureka/] 
+Using JSON encoding codec LegacyJacksonJson 
+Using JSON decoding codec LegacyJacksonJson 
+Using XML encoding codec XStreamXml 
+Using XML decoding codec XStreamXml 
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration': Unsatisfied dependency expressed through field 'eurekaServerBootstrap'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eurekaServerBootstrap' defined in class path resource [org/springframework/cloud/netflix/eureka/server/EurekaServerAutoConfiguration.class]: Unsatisfied dependency expressed through method 'eurekaServerBootstrap' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaServerContext': Invocation of init method failed; nested exception is java.lang.IllegalStateException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@5ea7fd14[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@466d83d5[Wrapped task = com.netflix.servo.monitor.StatsMonitor$$Lambda$1603/0x0000000800d74ca8@784c2e48]] rejected from java.util.concurrent.ScheduledThreadPoolExecutor@1e90c814[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 8] 
+Cannot shutdown ReplicaAwareInstanceRegistry 
+java.lang.NullPointerException: Cannot invoke "com.netflix.eureka.cluster.PeerEurekaNodes.shutdown()" because "this.peerEurekaNodes" is null
+	at com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.shutdown(PeerAwareInstanceRegistryImpl.java:176) ~[eureka-core-1.10.17.jar:1.10.17]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:319) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:596) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.6.jar:2.6.6]
+	at com.example.ProduitApplication.main(PiCta22Application.java:26) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.6.jar:2.6.6]
+Custom destroy method 'shutdown' on bean with name 'peerAwareInstanceRegistry' threw an exception: java.lang.NullPointerException: Cannot invoke "com.netflix.eureka.registry.ResponseCache.stop()" because "this.responseCache" is null 
+Closing JPA EntityManagerFactory for persistence unit 'default' 
+HikariPool-3 - Shutdown initiated... 
+HikariPool-3 - Shutdown completed. 
+Shutting down DiscoveryClient ... 
+Unregistering ... 
+DiscoveryClient_PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089 - deregister  status: 404 
+Completed shut down of DiscoveryClient 
+Stopping service [Tomcat] 
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+Application run failed 
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration': Unsatisfied dependency expressed through field 'eurekaServerBootstrap'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eurekaServerBootstrap' defined in class path resource [org/springframework/cloud/netflix/eureka/server/EurekaServerAutoConfiguration.class]: Unsatisfied dependency expressed through method 'eurekaServerBootstrap' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaServerContext': Invocation of init method failed; nested exception is java.lang.IllegalStateException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@5ea7fd14[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@466d83d5[Wrapped task = com.netflix.servo.monitor.StatsMonitor$$Lambda$1603/0x0000000800d74ca8@784c2e48]] rejected from java.util.concurrent.ScheduledThreadPoolExecutor@1e90c814[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 8]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.6.jar:2.6.6]
+	at com.example.ProduitApplication.main(PiCta22Application.java:26) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.6.jar:2.6.6]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eurekaServerBootstrap' defined in class path resource [org/springframework/cloud/netflix/eureka/server/EurekaServerAutoConfiguration.class]: Unsatisfied dependency expressed through method 'eurekaServerBootstrap' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaServerContext': Invocation of init method failed; nested exception is java.lang.IllegalStateException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@5ea7fd14[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@466d83d5[Wrapped task = com.netflix.servo.monitor.StatsMonitor$$Lambda$1603/0x0000000800d74ca8@784c2e48]] rejected from java.util.concurrent.ScheduledThreadPoolExecutor@1e90c814[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 8]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.18.jar:5.3.18]
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaServerContext': Invocation of init method failed; nested exception is java.lang.IllegalStateException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@5ea7fd14[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@466d83d5[Wrapped task = com.netflix.servo.monitor.StatsMonitor$$Lambda$1603/0x0000000800d74ca8@784c2e48]] rejected from java.util.concurrent.ScheduledThreadPoolExecutor@1e90c814[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 8]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:160) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:440) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.18.jar:5.3.18]
+	... 38 common frames omitted
+Caused by: java.lang.IllegalStateException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@5ea7fd14[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@466d83d5[Wrapped task = com.netflix.servo.monitor.StatsMonitor$$Lambda$1603/0x0000000800d74ca8@784c2e48]] rejected from java.util.concurrent.ScheduledThreadPoolExecutor@1e90c814[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 8]
+	at com.netflix.eureka.cluster.PeerEurekaNodes.start(PeerEurekaNodes.java:106) ~[eureka-core-1.10.17.jar:1.10.17]
+	at com.netflix.eureka.DefaultEurekaServerContext.initialize(DefaultEurekaServerContext.java:67) ~[eureka-core-1.10.17.jar:1.10.17]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157) ~[spring-beans-5.3.18.jar:5.3.18]
+	... 51 common frames omitted
+Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@5ea7fd14[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@466d83d5[Wrapped task = com.netflix.servo.monitor.StatsMonitor$$Lambda$1603/0x0000000800d74ca8@784c2e48]] rejected from java.util.concurrent.ScheduledThreadPoolExecutor@1e90c814[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 8]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2065) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:833) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.scheduleWithFixedDelay(ScheduledThreadPoolExecutor.java:680) ~[na:na]
+	at com.netflix.servo.monitor.StatsMonitor.startComputingStats(StatsMonitor.java:409) ~[servo-core-0.12.21.jar:0.12.21]
+	at com.netflix.servo.monitor.StatsMonitor.lambda$new$0(StatsMonitor.java:365) ~[servo-core-0.12.21.jar:0.12.21]
+	at com.netflix.servo.monitor.StatsMonitor.startComputingStats(StatsMonitor.java:377) ~[servo-core-0.12.21.jar:0.12.21]
+	at com.netflix.servo.monitor.StatsTimer.<init>(StatsTimer.java:70) ~[servo-core-0.12.21.jar:0.12.21]
+	at com.netflix.servo.monitor.StatsTimer.<init>(StatsTimer.java:47) ~[servo-core-0.12.21.jar:0.12.21]
+	at com.netflix.eureka.util.batcher.AcceptorExecutor.<init>(AcceptorExecutor.java:116) ~[eureka-core-1.10.17.jar:1.10.17]
+	at com.netflix.eureka.util.batcher.TaskDispatchers.createBatchingTaskDispatcher(TaskDispatchers.java:43) ~[eureka-core-1.10.17.jar:1.10.17]
+	at com.netflix.eureka.cluster.PeerEurekaNode.<init>(PeerEurekaNode.java:104) ~[eureka-core-1.10.17.jar:1.10.17]
+	at com.netflix.eureka.cluster.PeerEurekaNode.<init>(PeerEurekaNode.java:87) ~[eureka-core-1.10.17.jar:1.10.17]
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$RefreshablePeerEurekaNodes.createPeerEurekaNode(EurekaServerAutoConfiguration.java:295) ~[spring-cloud-netflix-eureka-server-3.1.1.jar:3.1.1]
+	at com.netflix.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes(PeerEurekaNodes.java:189) ~[eureka-core-1.10.17.jar:1.10.17]
+	at com.netflix.eureka.cluster.PeerEurekaNodes.start(PeerEurekaNodes.java:87) ~[eureka-core-1.10.17.jar:1.10.17]
+	... 59 common frames omitted
+Starting PiCta22Application using Java 17.0.9 on DESKTOP-7V4TGT0 with PID 9848 (C:\Users\balho\Desktop\Produit-Service\target\classes started by Yassin in C:\Users\balho\Desktop\Produit-Service) 
+No active profile set, falling back to 1 default profile: "default" 
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+Finished Spring Data repository scanning in 147 ms. Found 1 JPA repository interfaces. 
+BeanFactory id=e7b29b67-e115-3f89-91f2-b3250dcc683f 
+Tomcat initialized with port(s): 8089 (http) 
+Starting service [Tomcat] 
+Starting Servlet engine: [Apache Tomcat/9.0.60] 
+At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+Initializing Spring embedded WebApplicationContext 
+Root WebApplicationContext: initialization completed in 3490 ms 
+HikariPool-1 - Starting... 
+HikariPool-1 - Start completed. 
+H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/Ruby1' 
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+HHH000204: Processing PersistenceUnitInfo [name: default] 
+HHH000412: Hibernate ORM core version 5.6.7.Final 
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+Initialized JPA EntityManagerFactory for persistence unit 'default' 
+Filter 'resourceUrlEncodingFilter' configured for use 
+Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM' 
+Using JSON encoding codec LegacyJacksonJson 
+Using JSON decoding codec LegacyJacksonJson 
+Using XML encoding codec XStreamXml 
+Using XML decoding codec XStreamXml 
+25 mappings in 'requestMappingHandlerMapping' 
+Exposing 1 endpoint(s) beneath base path '/actuator' 
+Patterns [/swagger-ui/] in 'viewControllerHandlerMapping' 
+Patterns [/swagger-ui*/*swagger-initializer.js, /swagger-ui*/**, /swagger-ui/**] in 'resourceHandlerMapping' 
+Will not secure any request 
+LiveReload server is running on port 35729 
+ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice 
+ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice 
+File system access not preferred: using SpringTemplateLoader 
+Eureka HTTP Client uses Jersey 
+Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath. 
+Setting initial instance status as: STARTING 
+Initializing Eureka in region us-east-1 
+Using JSON encoding codec LegacyJacksonJson 
+Using JSON decoding codec LegacyJacksonJson 
+Using XML encoding codec XStreamXml 
+Using XML decoding codec XStreamXml 
+Resolving eureka endpoints via configuration 
+Disable delta property : false 
+Single vip registry refresh property : null 
+Force full registry fetch : false 
+Application is null : false 
+Registered Applications size is zero : true 
+Application version is -1: true 
+Getting all instance registry info from the eureka server 
+The response status is 200 
+Starting heartbeat executor: renew interval is: 30 
+InstanceInfoReplicator onDemand update allowed rate per min is 4 
+Discovery Client initialized at timestamp 1718806289911 with initial instances count: 0 
+Initializing ... 
+Adding new peer nodes [http://localhost:8761/eureka/] 
+Using JSON encoding codec LegacyJacksonJson 
+Using JSON decoding codec LegacyJacksonJson 
+Using XML encoding codec XStreamXml 
+Using XML decoding codec XStreamXml 
+Replica node URL:  http://localhost:8761/eureka/ 
+Finished initializing remote region registries. All known remote regions: [] 
+Initialized 
+Registering application PRODUIT-SERVICE with eureka with status UP 
+Saw local status change event StatusChangeEvent [timestamp=1718806290312, current=UP, previous=STARTING] 
+DiscoveryClient_PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089: registering service... 
+Setting the eureka configuration.. 
+isAws returned false 
+Initialized server context 
+Tomcat started on port(s): 8089 (http) with context path '/SpringMVC' 
+Updating port to 8089 
+DiscoveryClient_PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089 - registration status: 204 
+Started PiCta22Application in 13.156 seconds (JVM running for 14.581) 
+Initializing Spring DispatcherServlet 'dispatcherServlet' 
+Initializing Servlet 'dispatcherServlet' 
+Detected StandardServletMultipartResolver 
+Detected AcceptHeaderLocaleResolver 
+Detected FixedThemeResolver 
+Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6d0fb748 
+Detected org.springframework.web.servlet.support.SessionFlashMapManager@356ac897 
+enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data 
+Completed initialization in 4 ms 
+Disable delta property : false 
+Single vip registry refresh property : null 
+Force full registry fetch : false 
+Application is null : false 
+Registered Applications size is zero : true 
+Application version is -1: false 
+Getting all instance registry info from the eureka server 
+The response status is 200 
+Registered instance PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089 with status UP (replication=true) 
+Got 1 instances from neighboring DS node 
+Renew threshold is: 1 
+Changing status to UP 
+Started Eureka Server 
+Unregistering application PRODUIT-SERVICE with eureka with status DOWN 
+Saw local status change event StatusChangeEvent [timestamp=1718806322411, current=DOWN, previous=UP] 
+DiscoveryClient_PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089: registering service... 
+DiscoveryClient_PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089 - registration status: 204 
+Shutting down Eureka Server.. 
+Shutting down ... 
+Shut down 
+Eureka Service is now shutdown... 
+Shutting down ... 
+Shut down 
+Closing JPA EntityManagerFactory for persistence unit 'default' 
+HikariPool-1 - Shutdown initiated... 
+HikariPool-1 - Shutdown completed. 
+Shutting down DiscoveryClient ... 
+Unregistering ... 
+DiscoveryClient_PRODUIT-SERVICE/DESKTOP-7V4TGT0:produit-service:8089 - deregister  status: 200 
+Completed shut down of DiscoveryClient 
