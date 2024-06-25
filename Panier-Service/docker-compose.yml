@@ -1,0 +1,36 @@
+version: "3"
+
+services:
+  postgresdb:
+    container_name: postgresdb
+    image: postgres:15.0
+    restart: unless-stopped
+    ports:
+     - 5432:5432
+    environment:
+     - POSTGRES_ROOT_PASSWORD=postgres
+     - POSTGRES_DB=assignmentDB
+     - POSTGRES_USER=postgres
+     - POSTGRES_PASSWORD=postgres
+    volumes:
+     - /home/postgres/data:/var/lib/postgres
+
+  spring_app:
+    image: 11711911/shopback
+    container_name: shopspring
+    restart: on-failure
+    environment:
+     - spring.datasource.url=jdbc:postgresql://postgresdb:5432/assignmentDB
+    ports:
+     - 8089:8089
+    depends_on:
+     - postgresdb
+
+  angular_app:
+    image: 11711911/shopfront
+    container_name: shopangular
+    restart: on-failure
+    ports:
+     - 4200:80
+    depends_on:
+     - spring_app
