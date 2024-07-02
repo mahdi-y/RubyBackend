@@ -1,0 +1,153 @@
+version: '3.8'
+
+services:
+  postgresdb:
+    container_name: postgresdb
+    image: postgres:15.0
+    restart: unless-stopped
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_ROOT_PASSWORD=admin
+      - POSTGRES_DB=Ruby1
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=admin
+    volumes:
+      - /home/postgres/data:/var/lib/postgres
+
+  eureka-server:
+    image: yassinehmedi/ruby-services:eureka-server
+    container_name: eureka-server
+    restart: unless-stopped
+    ports:
+      - 8761:8761
+
+  produit-service:
+    image: yassinehmedi/ruby-services:produit-service
+    container_name: produit-service
+    restart: on-failure
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgresdb:5432/Ruby1
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=admin
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
+    ports:
+      - 8083:8083
+    depends_on:
+      - eureka-server
+
+  user-service:
+    image: yassinehmedi/ruby-services:user-service
+    container_name: user-service
+    restart: on-failure
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgresdb:5432/Ruby1
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=admin
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
+    ports:
+      - 8090:8090
+    depends_on:
+      - eureka-server
+
+  stock-service:
+    image: yassinehmedi/ruby-services:stock-service
+    container_name: stock-service
+    restart: on-failure
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgresdb:5432/Ruby1
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=admin
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
+    ports:
+      - 8085:8085
+    depends_on:
+      - eureka-server
+
+  order-service:
+    image: yassinehmedi/ruby-services:order-service
+    container_name: order-service
+    restart: on-failure
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgresdb:5432/Ruby1
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=admin
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
+    ports:
+      - 8084:8084
+    depends_on:
+      - eureka-server
+      - stock-service
+      - panier-service
+      - user-service
+
+  livraison-service:
+    image: yassinehmedi/ruby-services:livraison-service
+    container_name: livraison-service
+    restart: on-failure
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgresdb:5432/Ruby1
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=admin
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
+    ports:
+      - 8086:8086
+    depends_on:
+      - eureka-server
+      - order-service
+
+  reclamation-service:
+    image: yassinehmedi/ruby-services:reclamation-service
+    container_name: reclamation-service
+    restart: on-failure
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgresdb:5432/Ruby1
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=admin
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
+    ports:
+      - 8087:8087
+    depends_on:
+      - eureka-server
+      - livraison-service
+      - user-service
+
+  panier-service:
+    image: yassinehmedi/ruby-services:panier-service
+    container_name: panier-service
+    restart: on-failure
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgresdb:5432/Ruby1
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=admin
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
+    ports:
+      - 8082:8082
+    depends_on:
+      - eureka-server
+      - produit-service
+      - user-service
+  api-service:
+    image: yassinehmedi/ruby-services:api-service
+    container_name: api-service
+    restart: on-failure
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgresdb:5432/Ruby1
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=admin
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
+    ports:
+      - 8091:8091
+    depends_on:
+      - eureka-server
+      - livraison-service
+      - user-service
+      - produit-service
+      - panier-service
+      - order-service
+      - reclamation-service
+      - stock-service
+
+networks:
+  my-network:
+    driver: bridge

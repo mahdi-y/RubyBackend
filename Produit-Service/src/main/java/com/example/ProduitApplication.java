@@ -8,7 +8,11 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
+import java.io.IOException;
 
 
 @EnableWebMvc
@@ -22,6 +26,10 @@ public class ProduitApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProduitApplication.class, args);
+
+	}
 	}
 
-}
+
+
+

@@ -64,6 +64,7 @@
 		<module>Order-Service</module>
 		<module>Livraison-Service</module>
 		<module>Reclamation-Service</module>
+		<module>APIGateway-Service</module>
 	</modules>
 
 	<build>
