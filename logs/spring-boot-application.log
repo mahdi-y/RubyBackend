@@ -1,218 +1,95 @@
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-HTTP GET http://localhost:8761/eureka/apps/delta 
+Unregistering ... 
+HTTP DELETE http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083 
 Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
 Response 200 OK 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-HTTP GET http://localhost:8761/eureka/apps/delta 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
+DiscoveryClient_PRODUIT-SERVICE/Mahdi:produit-service:8083 - deregister  status: 200 
+Completed shut down of DiscoveryClient 
+Starting ProduitApplication using Java 17.0.9 on Mahdi with PID 4752 (C:\Users\User\Desktop\rubyDyel\RubyBackend\Produit-Service\target\classes started by Mahdi in C:\Users\User\Desktop\rubyDyel\RubyBackend) 
+No active profile set, falling back to 1 default profile: "default" 
+Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces. 
+BeanFactory id=3e85ad62-3ac8-341d-898f-36ae2d9798c9 
+Tomcat initialized with port(s): 8083 (http) 
+Starting service [Tomcat] 
+Starting Servlet engine: [Apache Tomcat/9.0.60] 
+At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+Initializing Spring embedded WebApplicationContext 
+Root WebApplicationContext: initialization completed in 5256 ms 
+HikariPool-10 - Starting... 
+HikariPool-10 - Start completed. 
+H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/Ruby1' 
+Filter 'resourceUrlEncodingFilter' configured for use 
+HHH000204: Processing PersistenceUnitInfo [name: default] 
+HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+Initialized JPA EntityManagerFactory for persistence unit 'default' 
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+Unable to start LiveReload server 
+24 mappings in 'requestMappingHandlerMapping' 
+Exposing 1 endpoint(s) beneath base path '/actuator' 
+
+
+Using generated security password: cfc96b14-c1ce-48dc-975e-12612ebe3c23
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+ 
+Patterns [/swagger-ui/] in 'viewControllerHandlerMapping' 
+Patterns [/swagger-ui*/*swagger-initializer.js, /swagger-ui*/**, /swagger-ui/**] in 'resourceHandlerMapping' 
+Will not secure any request 
+ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice 
+ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice 
+File system access not preferred: using SpringTemplateLoader 
+Eureka HTTP Client uses RestTemplate. 
+Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath. 
+Setting initial instance status as: STARTING 
+Initializing Eureka in region us-east-1 
 Resolving eureka endpoints via configuration 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-HTTP GET http://localhost:8761/eureka/apps/delta 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP GET http://localhost:8761/eureka/apps/delta 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP GET http://localhost:8761/eureka/apps/delta 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-HTTP GET http://localhost:8761/eureka/apps/delta 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-HTTP GET http://localhost:8761/eureka/apps/delta 
+Disable delta property : false 
+Single vip registry refresh property : null 
+Force full registry fetch : false 
+Application is null : false 
+Registered Applications size is zero : true 
+Application version is -1: true 
+Getting all instance registry info from the eureka server 
+HTTP GET http://localhost:8761/eureka/apps/ 
 Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
 Response 200 OK 
 Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
+The response status is 200 
+Starting heartbeat executor: renew interval is: 30 
+InstanceInfoReplicator onDemand update allowed rate per min is 4 
+Discovery Client initialized at timestamp 1720000219613 with initial instances count: 8 
+Registering application PRODUIT-SERVICE with eureka with status UP 
+Saw local status change event StatusChangeEvent [timestamp=1720000219616, current=UP, previous=STARTING] 
+DiscoveryClient_PRODUIT-SERVICE/Mahdi:produit-service:8083: registering service... 
+Tomcat started on port(s): 8083 (http) with context path '/SpringMVC' 
+Updating port to 8083 
+HTTP POST http://localhost:8761/eureka/apps/PRODUIT-SERVICE 
+Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
+Writing [InstanceInfo [instanceId = Mahdi:produit-service:8083, appName = PRODUIT-SERVICE, hostName = Mahdi, status = UP, ipAddr = 192.168.236.81, port = 8083, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@425849af] as "application/json" 
+Response 204 NO_CONTENT 
+DiscoveryClient_PRODUIT-SERVICE/Mahdi:produit-service:8083 - registration status: 204 
+Started ProduitApplication in 14.175 seconds (JVM running for 518810.3) 
+Condition evaluation unchanged 
+HTTP GET http://localhost:8761/eureka/apps/delta 
+Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
+HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1720000219616 
+Response 200 OK 
+Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
 Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
 Response 200 OK 
 HTTP GET http://localhost:8761/eureka/apps/delta 
 Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
 Response 200 OK 
 Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
+HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1720000219616 
 Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
 Response 200 OK 
 HTTP GET http://localhost:8761/eureka/apps/delta 
 Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
 Response 200 OK 
 Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-HTTP GET http://localhost:8761/eureka/apps/delta 
-Response 200 OK 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-HTTP GET http://localhost:8761/eureka/apps/delta 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-HTTP GET http://localhost:8761/eureka/apps/delta 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-Resolving eureka endpoints via configuration 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-HTTP GET http://localhost:8761/eureka/apps/delta 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-HTTP GET http://localhost:8761/eureka/apps/delta 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-HTTP GET http://localhost:8761/eureka/apps/delta 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-HTTP GET http://localhost:8761/eureka/apps/delta 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-HTTP GET http://localhost:8761/eureka/apps/delta 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-HTTP GET http://localhost:8761/eureka/apps/delta 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-HTTP GET http://localhost:8761/eureka/apps/delta 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-HTTP GET http://localhost:8761/eureka/apps/delta 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-HTTP GET http://localhost:8761/eureka/apps/delta 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-HTTP GET http://localhost:8761/eureka/apps/delta 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-Resolving eureka endpoints via configuration 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-HTTP GET http://localhost:8761/eureka/apps/delta 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-HTTP GET http://localhost:8761/eureka/apps/delta 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-HTTP GET http://localhost:8761/eureka/apps/delta 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-HTTP GET http://localhost:8761/eureka/apps/delta 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-HTTP GET http://localhost:8761/eureka/apps/delta 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-HTTP GET http://localhost:8761/eureka/apps/delta 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-HTTP GET http://localhost:8761/eureka/apps/delta 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-HTTP GET http://localhost:8761/eureka/apps/delta 
-Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
-Response 200 OK 
-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications] 
-HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1719312033623 
+HTTP PUT http://localhost:8761/eureka/apps/PRODUIT-SERVICE/Mahdi:produit-service:8083?status=UP&lastDirtyTimestamp=1720000219616 
 Accept=[application/json, application/xml, application/*+json, text/xml, application/*+xml] 
 Response 200 OK 
 HTTP GET http://localhost:8761/eureka/apps/delta 
