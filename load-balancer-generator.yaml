@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: load-balancer-generator
+spec:
+  replicas: 1  # You can adjust the number of replicas as needed
+  selector:
+    matchLabels:
+      app: load-balancer-generator
+  template:
+    metadata:
+      labels:
+        app: load-balancer-generator
+    spec:
+      containers:
+        - name: load-balancer-generator
+          image: busybox  # You can use any image suitable for sending HTTP requests
+          command: ["/bin/sh"]
+          args:
+            - -c
+            - >
+              while true; do
+                wget -q -O- http://user-service.default.svc.cluster.local:8090/actuator/health;
+                sleep 1;
+              done

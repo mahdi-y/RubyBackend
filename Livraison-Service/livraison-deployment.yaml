@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: livraison-deployment
+  labels:
+    app: livraison-service
+spec:
+  replicas: 2 # Number of instances you want to run
+  selector:
+    matchLabels:
+      app: livraison-service
+  template:
+    metadata:
+      labels:
+        app: livraison-service
+    spec:
+      containers:
+        - name: livraison-service
+          image: yassinehmedi/ruby-services:livraison-service
+          ports:
+            - containerPort: 8086
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "200Mi"
+            limits:
+              cpu: "500m"
+              memory: "500Mi"
+          env:
+            - name: SPRING_DATASOURCE_URL
+              value: jdbc:postgresql://postgresdb:5432/ruby1
+            - name: SPRING_DATASOURCE_USERNAME
+              value: postgres
+            - name: SPRING_DATASOURCE_PASSWORD
+              value: admin
+            - name: EUREKA_CLIENT_SERVICEURL_DEFAULTZONE
+              value: http://eureka-server:8761/eureka/
+            - name: SPRING_APPLICATION_NAME
+              value: livraison-service

@@ -1,0 +1,12 @@
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: panier-hpa
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: panier-deployment
+  minReplicas: 2
+  maxReplicas: 4
+  targetCPUUtilizationPercentage: 50

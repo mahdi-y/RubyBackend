@@ -80,6 +80,7 @@ return "omk";
 		return listProduits;
 	}
 
+
 	@RequestMapping(value = "barcode/{produit-id}", method = RequestMethod.GET)
 	public void barcode(@PathVariable("produit-id") String produitId, HttpServletResponse response) throws Exception {
 		response.setContentType("image/png");

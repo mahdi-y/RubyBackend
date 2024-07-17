@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: debug-container
+  namespace: default
+spec:
+  containers:
+    - name: debug
+      image: alpine:latest
+      command:
+        - sleep
+        - "3600"
+      imagePullPolicy: IfNotPresent
+      tty: false  # Ensure TTY is set to false
